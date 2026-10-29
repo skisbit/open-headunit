@@ -1,35 +1,35 @@
 <resources>
-    <string name="hct_aa_wake_not_sent">The connection state changed, so the phone reconnect was not started. Try again after the current connection activity finishes.</string>
-    <string name="hct_aa_selection_pending">The previous phone connection is still being handled. This selection has not replaced it.</string>
-    <string name="hct_aa_wake_unconfirmed">The head unit has not completed the Android Auto connection. Select the phone again to retry, or reconnect it from its Bluetooth settings. Open Headunit is still listening for Android Auto.</string>
-    <string name="hct_aa_no_paired_phone">No saved phone was found in the head unit’s Bluetooth list. Pair your phone using the head unit’s Bluetooth app, then select it here.</string>
-    <string name="hct_aa_waiting_existing_bluetooth">Bluetooth is already connected. Waiting for the head unit to open Android Auto; the existing connection will not be restarted.</string>
-    <string name="hct_aa_bluetooth_busy">Bluetooth is busy. Android Auto will not restart an active call or connection.</string>
-    <string name="hct_aa_handoff_unavailable">The head unit has not provided an Android Auto connection. Open Headunit has stopped this attempt.</string>
-    <string name="bt_manufacturer_devices_title">Devices paired through the head unit</string>
-    <string name="bt_manufacturer_devices_message">The head unit saved these devices in its own Bluetooth list:\n\n%1$s\n\nAndroid does not list them as paired. They cannot be selected for Android Bluetooth triggers or phone wake-up here. This saved list does not tell us whether they are connected or whether an Android Auto connection is available.</string>
-    <string name="bt_manufacturer_devices_android_unavailable">The head unit saved these devices in its own Bluetooth list:\n\n%1$s\n\nThe Android Bluetooth list is currently unavailable. This saved list alone cannot be used for Android Bluetooth triggers or phone wake-up. It does not tell us whether these devices are connected or whether an Android Auto connection is available.</string>
+    <string name="hct_aa_wake_not_sent">Anslutningen ändrades, så telefonens återanslutning startades inte. Försök igen efter det nuvarande anlustningsförsöket är klart.</string>
+    <string name="hct_aa_selection_pending">Den förra telefonanslutningen hanteras fortfarande. Detta val har inte ersatt det.</string>
+    <string name="hct_aa_wake_unconfirmed">Huvudenheten har inte färdigställt Android Auto-anslutningen. Välj telefonen för att försöka igen, eller återanslut den från dess Bluetooth-inställningar. Open Headunit lyssnar fortfarande efter Android Auto.</string>
+    <string name="hct_aa_no_paired_phone">Ingen sparad telefon hittades i huvudenhetens Bluetooth-lista. Para din telefon genom huvudenhetens bluetooth-inställningar, och välj den sedan i Open Headunit.</string>
+    <string name="hct_aa_waiting_existing_bluetooth">Bluetooth är redan anslutet. Väntar på att huvudenheten öppnar Android Auto. Den nuvarande anslutningen kommer inte att startas om.</string>
+    <string name="hct_aa_bluetooth_busy">Bluetooth-hanteraren är upptagen. Android Auto kommer inte att starta om en aktiv anslutning eller anslutningsförsök.
+    <string name="hct_aa_handoff_unavailable">Huvudenheten har inte tillhandahållit en Android Auto-anslutning. Open Headunit har stoppat anslutningsförsöket.</string>
+    <string name="bt_manufacturer_devices_title">Enheter som parats genom huvudenheten</string>
+    <string name="bt_manufacturer_devices_message">Huvudenheten sparade dessa enheter i sin egen Bluetooth-lista:\n\n%1$s\n\nAndroid har inte listat de som parade. De kan inte väljas för Android Bluetooth-utlösare eller telefonuppvakning här. Den sparade listan kan inte användas för att utläsa ifall de är anslutna eller om en Android Auto-anslutning är tillgänglig.</string>
+    <string name="bt_manufacturer_devices_android_unavailable">Huvudenheten sparade dessa enheter i sin egen Bluetooth-lista:\n\n%1$s\n\nAndroid Bluetooth-listan är för närvarande inte tillgänglig. De kan inte väljas för Android Bluetooth-utlösare eller telefonuppvakning här. Den sparade listan kan inte användas för att utläsa ifall de är anslutna eller om en Android Auto-anslutning är tillgänglig.</string></string>
     <string name="app_name">Open Headunit</string>
-    <string name="menu">Menu</string>
-    <string name="settings">Settings</string>
+    <string name="menu">Meny</string>
+    <string name="settings">Inställningar</string>
 
     <!-- Settings tabs and search (redesign) -->
-    <string name="settings_tab_basic">Basic</string>
-    <string name="settings_tab_advanced">Advanced</string>
-    <string name="settings_search_hint">Search settings</string>
-    <string name="settings_scope_wifi_hidden">Showing USB settings. WiFi settings are hidden.</string>
-    <string name="settings_scope_usb_hidden">Showing WiFi settings. USB settings are hidden.</string>
-    <string name="settings_scope_usb_wifi_hidden">Showing Self Mode settings. USB and WiFi settings are hidden.</string>
-    <string name="settings_scope_change">Change</string>
-    <string name="settings_search_clear">Clear search</string>
-    <string name="settings_search_no_results">No settings match \"%1$s\".</string>
+    <string name="settings_tab_basic">Enkla</string>
+    <string name="settings_tab_advanced">Advancerade</string>
+    <string name="settings_search_hint">Sök bland inställnigar</string>
+    <string name="settings_scope_wifi_hidden">Visar USB-inställningar. WiFi-inställningar är dolda.</string>
+    <string name="settings_scope_usb_hidden">Visar WiFi-inställningar. USB-inställningar är dolda.</string>
+    <string name="settings_scope_usb_wifi_hidden">Visar "Själv-läge"-inställningar. USB- och WiFi-inställningar är dolda.</string>
+    <string name="settings_scope_change">Ändra</string>
+    <string name="settings_search_clear">Rensa sökning</string>
+    <string name="settings_search_no_results">Ingen inställning matchar \"%1$s\".</string>
 
     <!-- Connection mode selector -->
-    <string name="connection_mode">Connection mode</string>
-    <string name="connection_kind_usb_cable">USB cable (direct)</string>
-    <string name="connection_kind_usb_wireless_adapter">USB wireless adapter</string>
+    <string name="connection_mode">Anslutningsläge</string>
+    <string name="connection_kind_usb_cable">USB-kabel (direkt)</string>
+    <string name="connection_kind_usb_wireless_adapter">Trådlös USB-adapter</string>
     <string name="connection_kind_wifi">WiFi</string>
-    <string name="connection_kind_unset">Not set</string>
+    <string name="connection_kind_unset">Ej inställt</string>
 
     <!-- Onboarding wizard -->
     <string name="onb_next">Next</string>
